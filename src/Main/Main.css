@@ -1,0 +1,140 @@
+.search {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main_img {
+  width: 100%;
+  height: 50vh;
+  background-image: url('http://placeimg.com/640/300/any');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main_title {
+  margin: 9vh 0px 2vh 15vw;
+  font-size: 2.5vw;
+  color: #1a72ec;
+  font-weight: bold;
+}
+
+.main_search {
+  width: 40vw;
+  height: 3vh;
+  margin-top: -3vh;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.main_search input {
+  width: 40vw;
+  height: 6vh;
+  font-size: 1.3vw;
+  border-radius: 37px;
+  text-align: center;
+  border: solid 3px #707070;
+}
+
+.main_rank {
+  width: 70vw;
+  height: 10vh;
+  margin: 5vh auto 0;
+  border-radius: 18px;
+  border: solid 3px #353535;
+  background-color: #fff;
+  text-align: left;
+  padding: 2vh 0 0 3vw;
+  box-sizing: border-box;
+  font-size: 2.4vw;
+}
+
+.main_box_group {
+  display: flex;
+  margin: 0 0 0 15vw;
+  gap: 1.5vw;
+}
+
+.main_box {
+  width: 21vw;
+  height: 27vh;
+  margin: 2vh 1.5vw 3vh 0;
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background-color: #000;
+  font-size: 1vw;
+  color: #fff;
+  text-align: center;
+  line-height: 27vh;
+}
+
+.main_reservation {
+  width: 69vw;
+  height: 19vh;
+  border-radius: 8px;
+  margin: 9vh 0 2vh 15vw;
+  background-color: #1a72ec;
+}
+
+.main_reservation_text1 {
+  margin: 9vh 0 2vh 15vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: #fff;
+}
+
+.main_twobox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 26vw;
+  margin: 8vh auto 12vh;
+  width: 70%;
+}
+
+.main_community, .main_notice {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 11.96vw;
+  gap: 25px;
+}
+
+.main_squre {
+  width: 31vw;
+  height: 40vh;
+  border-radius: 18px;
+  border: solid 3px #707070;
+  background-color: #fff;
+}
+
+.main_community_title, .main_notice_title {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.main_community_content, .main_notice_content {
+  margin: 0 0 0 1.4vw;
+}
+
+.main_community_content_title, .main_notice_content_title {
+  display: flex;
+  margin: 3vh 0px 0px 1vw;
+  font-size: 1.3vw;
+}
+
+.main_community_content_time, .main_notice_content_time {
+  display: flex;
+  margin: -2vh 0px 0px 23vw;
+  font-size: 1.2vw;
+}
+
+.main_line {
+  width: 27vw;
+  height: 0.3vh;
+  margin: 3vh 0  ;
+  background-color: #707070;
+}
