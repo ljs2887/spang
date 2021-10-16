@@ -5,7 +5,7 @@ function Header() {
   return(
     <>
       <header className="header">
-        <div className="header_logo"></div>
+        <div className="header_logo">SPANG</div>
         <ul className="header_menu">
           <li>예약하기</li>
           <Link to="/Notice" style={{ textDecorationLine: 'none', color: '#000' }}><li>공지사항</li></Link>
