@@ -1,20 +1,103 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px 20px 200px;
+@media only screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em 2em 10em;
+  }
+  
+  .header_logo {
+    /* width: 201px;  
+    height: 43px; */
+    /* background-image: url('../asset/img/sipang.jpg');
+    background-repeat: no-repeat; */
+    color: #1a72ec;
+    font-weight: bold;
+    font-size: 6rem;
+  }
+  
+  .header_menu {
+    display: flex;
+    gap: 2em;
+    padding: 0 6em 0 0;
+    font-size: 1.7rem;
+  }
 }
 
-.header_logo {
-  width: 201px;  
-  height: 43px;
-  background-image: url('../asset/img/sipang.jpg');
-  background-repeat: no-repeat;
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em 2em 10em;
+  }
+  
+  .header_logo {
+    /* width: 201px;  
+    height: 43px; */
+    /* background-image: url('../asset/img/sipang.jpg');
+    background-repeat: no-repeat; */
+    color: #1a72ec;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  
+  .header_menu {
+    display: flex;
+    gap: 1.5em;
+    padding: 0 3em 0 0;
+    font-size: 1.5rem;
+  }
 }
 
-.header_menu {
-  display: flex;
-  gap: 2vw;
-  padding: 0px 6vw 0px 0px;
-  font-size: 1vw;
+@media only screen and (min-width: 640px) and (max-width: 800px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em 2em 10em;
+  }
+  
+  .header_logo {
+    /* width: 201px;  
+    height: 43px; */
+    /* background-image: url('../asset/img/sipang.jpg');
+    background-repeat: no-repeat; */
+    color: #1a72ec;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  
+  .header_menu {
+    display: flex;
+    gap: 1.5em;
+    padding: 0 3em 0 0;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em 2em 10em;
+  }
+  
+  .header_logo {
+    /* width: 201px;  
+    height: 43px; */
+    /* background-image: url('../asset/img/sipang.jpg');
+    background-repeat: no-repeat; */
+    color: #1a72ec;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .header_menu {
+    display: flex;
+    gap: 1em;
+    padding: 0 3em 0 0;
+    font-size: 1rem;
+  }
 }
