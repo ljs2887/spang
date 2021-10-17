@@ -7,7 +7,7 @@
 .main_img {
   width: 100%;
   height: 50vh;
-  background-image: url('http://placeimg.com/640/300/any');
+  background-image: url("http://placeimg.com/640/300/any");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -25,8 +25,8 @@
   width: 40vw;
   height: 3vh;
   margin-top: -3vh;
-  margin-left:auto; 
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main_search input {
@@ -95,7 +95,8 @@
   width: 70%;
 }
 
-.main_community, .main_notice {
+.main_community,
+.main_notice {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -111,22 +112,26 @@
   background-color: #fff;
 }
 
-.main_community_title, .main_notice_title {
+.main_community_title,
+.main_notice_title {
   font-size: 2vw;
   font-weight: bold;
 }
 
-.main_community_content, .main_notice_content {
+.main_community_content,
+.main_notice_content {
   margin: 0 0 0 1.4vw;
 }
 
-.main_community_content_title, .main_notice_content_title {
+.main_community_content_title,
+.main_notice_content_title {
   display: flex;
   margin: 3vh 0px 0px 1vw;
   font-size: 1.3vw;
 }
 
-.main_community_content_time, .main_notice_content_time {
+.main_community_content_time,
+.main_notice_content_time {
   display: flex;
   margin: -2vh 0px 0px 23vw;
   font-size: 1.2vw;
@@ -135,6 +140,6 @@
 .main_line {
   width: 27vw;
   height: 0.3vh;
-  margin: 3vh 0  ;
+  margin: 3vh 0;
   background-color: #707070;
 }
