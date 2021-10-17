@@ -29,26 +29,26 @@
   margin-right: auto;
 }
 
-.main_search input {
+.main_search > input {
   width: 40vw;
   height: 6vh;
-  font-size: 1.3vw;
   border-radius: 37px;
-  text-align: center;
   border: solid 3px #707070;
+  text-align: center;
+  font-size: 1.3vw;
 }
 
 .main_rank {
+  /* background-color: cadetblue; */
+  box-sizing: border-box;
   width: 70vw;
   height: 10vh;
-  margin: 5vh auto 0;
   border-radius: 18px;
   border: solid 3px #353535;
-  background-color: #fff;
-  text-align: left;
+  margin: 5vh auto 0;
   padding: 2vh 0 0 3vw;
-  box-sizing: border-box;
   font-size: 2.4vw;
+  font-weight: 500;
 }
 
 .main_box_group {
@@ -71,12 +71,14 @@
   line-height: 27vh;
 }
 
-.main_reservation {
+.main_banner_box {
+  background-color: #1a72ec;
   width: 69vw;
   height: 19vh;
-  border-radius: 8px;
   margin: 9vh 0 2vh 15vw;
-  background-color: #1a72ec;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
 }
 
 .main_reservation_text1 {

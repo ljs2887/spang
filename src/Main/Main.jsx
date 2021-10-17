@@ -15,7 +15,7 @@ function Main(props) {
       return () => clearInterval(id);
     }, []);
 
-    return <h1>{`${rankingData.indexOf(ranking) + 1}. ${ranking}`}</h1>;
+    return <>{`${rankingData.indexOf(ranking) + 1}. ${ranking}`}</>;
   };
 
   return (
@@ -51,9 +51,11 @@ function Main(props) {
         </div>
       </div>
 
-      <div className="main_reservation">
-        <div className="main_reservation_text1">ddd</div>
-        <div className="main_reservation_text1">ddd</div>
+      <div className="main_banner_box">
+        {/* <p className="main_reservation_text1">그곳이 어디든 그곳이 몇시던</p> */}
+        <p>그곳이 어디든 그곳이 몇시던</p>
+        <p>언제 어디서든! SPANG!</p>
+        <button>예약하기</button>
       </div>
 
       <div className="main_twobox">
